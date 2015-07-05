@@ -17,6 +17,7 @@ var Visualization = LightningVisualization.extend({
         /*
         // FILL IN Add any logic for initializing the visualization
         */
+        console.log('lviz1/index.js:init');
         this.render();
     },
 
@@ -27,12 +28,16 @@ var Visualization = LightningVisualization.extend({
         // FILL IN Render the visualization
         // FILL IN Get data / selector from this.data and this.selector
         */
+        console.log('lviz1/index.js:render');
     },
 
     formatData: function(data) {
         /*
         // Format your data from a raw JSON blob
         */
+        parsedData = JSON.parse(data);
+        console.log('lviz1/index.js:formatData' + data);
+        console.log(parsedData);
         return data;
     },
 
@@ -41,6 +46,7 @@ var Visualization = LightningVisualization.extend({
         /*
         // FILL IN Re-render your visualization
         */
+        console.log('lviz1/index.js:updateData');
     },
 
     appendData: function(formattedData) {    
@@ -48,6 +54,7 @@ var Visualization = LightningVisualization.extend({
         // FILL IN Update this.data to include the newly formatted data
         // FILL IN Re-render the visualization
         */    
+        console.log('lviz1/index.js:appendData');
     }
 
 });

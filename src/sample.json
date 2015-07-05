@@ -1,0 +1,14 @@
+[
+{
+    name: "tree",
+    children: [
+        { name: "Biggest", size: 2700 },
+        { name: "Bigger", size: 600 },
+        { name: "Medium", size: 100 },
+        { name: "Small", size: 50 },
+        { name: "Smallest", size: 5 },
+        { name: "Big", size: 300 },
+        { name: "Smaller", size: 10 }
+    ]
+}
+]
